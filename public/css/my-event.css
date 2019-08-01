@@ -1,0 +1,558 @@
+/** style create event **/
+
+.main-content{
+    width: 70%;
+    margin-left:30% ;
+    overflow: auto;
+}
+
+.w-content{
+    margin: 5% auto;
+}
+.lk-e{
+    background: #bcbcbc;
+    padding: 1em;
+    color: #fff;
+    position: relative;
+    float: left;
+    display: block;
+    width: 9em;
+    text-align: center;
+    border-right:1px solid #ececec;
+    font-family:"Open Sans", Helvetica, Sans-Serif;
+    width:25%;
+    font-size:.8em;
+    text-transform:uppercase
+}
+.lk-e:hover{
+    background: #87887e;
+    color:#fff;
+    box-shadow:0 -3px 0 rgba(0, 0, 0, 0.25) inset;
+}
+.lk-e.active{
+    background: #87887e ;
+    box-shadow:0 -3px 0 rgba(0, 0, 0, 0.25) inset;
+}
+.main-content .e-add-event {
+    background:#77c47f;
+    color:#fff;
+    padding: 1em 8px;
+    display: block;
+    float: none;
+    width: 50%;
+    margin-top: 10px;
+}
+.main-content .e-add-event:hover {
+    background:#77c47f;
+    opacity:.8
+}
+.i-plus {
+    background: url("https://tkbvn-tokyo.s3.amazonaws.com/images-v2/i-manage-event.png") no-repeat scroll left -127px transparent;
+    display: inline-block;
+    width: 17px;
+    height: 16px;
+    vertical-align: -4px;
+    margin-left: 5px;
+
+}
+.e-quantity {
+    background:#ffffff;
+    border-radius:3px;
+    color: #989989;
+    width: 35px;
+    display: inline-block;
+    margin-right: 5px;
+}
+.event-type{
+    margin: 2em 0 1em 0;
+    background:#f6f6f6;
+    padding:10px 20px;
+}
+.event-search{
+    margin: 1em 0 1em 0;
+    position: relative;
+}
+.event-search input{
+    width: 100%;
+    background-color: #fff;
+    position: relative;
+    padding: 10px 20px 10px 40px;
+    height: initial;
+}
+.event-search::before {
+    position: absolute;
+    z-index: 1;
+    content: '';
+    width: 20px;
+    height: 20px;
+    top: 25%;
+    left: 10px;
+    background: transparent url("https://tkbvn-tokyo.s3.amazonaws.com/images-v2/search-icon.png") no-repeat center center/contain ;
+}
+span.num-draft{
+    background: none repeat scroll 0 0 #d85742;
+    border-radius: 500px 500px 500px 500px;
+    padding: 0;
+    position: absolute;
+    right: -11px;
+    top: -12px;
+    display:table-cell;
+    width:27px;
+    height:27px;
+    padding-top:3px;
+}
+.aday{
+    padding:5%;
+}
+.tix-summary{
+    background: #f2f2f2;
+    padding: .7em 1.5em;
+    margin-top: 2em;
+    color: #969696;
+}
+
+.tix-summary p{
+    color: #414b57;
+}
+.tix-breakdown {
+    margin-top: 30px;
+    font-size: 13px;
+}
+.tix-breakdown tbody {
+    color: #474747;
+}
+.tix-breakdown td {
+    padding: 5px;
+    border: 1px solid #dfdfdf;
+}
+.e-logo{
+    padding-right: 1em;
+}
+.e-logo img{
+    width: 90px;
+}
+div.aday{
+    border: 1px solid #dcdcdc;
+    border-radius: 5px;
+    position: relative;
+    margin-top: 4em;
+}
+.aday .e-date{
+    background: none repeat scroll 0 0 #DDDDDD;
+    display: block;
+    left: 30px;
+    padding: 5px;
+    position: absolute;
+    top: -31px;
+    width: 90px;
+    text-align: center;
+}
+.e-time {
+    font-weight: bold;
+}
+.w-25{width: 25%;}
+.w-75{width: 75%;}
+.e-status{
+    margin: 1em 0 0 0;
+}
+.e-status span.close-status,.e-status span.draft-status {
+    display: block;
+    padding:3px;
+    text-align: center;
+    width: 90px;
+    color: #fff;
+}
+span.close-status{
+    background: #d85742;
+}
+.e-status span.draft-status{
+    background: #f2f2f2;
+    color: #000;
+}
+.head{
+    font-weight: 400;
+    line-height: 1.5em;
+}
+#your-events-page .head {
+    display: inline-block;
+}
+.e-title{
+    font-size: 1.2em;
+    margin-bottom: 1em;
+    font-weight: 400;
+    width: 72%;
+}
+.e-title a{
+    color: #414A57;
+}
+.x-color{
+    color: #77c47f;
+    font-weight: bold;
+}
+.e-date-ad{
+    color: #969696;
+}
+span.manage {
+    display: block;
+    text-align: center;
+    width: 20%;
+}
+span.manage-icon{
+    display: block;
+    width: 43px;
+    height: 43px;
+    margin:0 auto;
+}
+.icon-ng{
+    background: url("https://tkbvn-tokyo.s3.amazonaws.com/images-v2/sprite-control.png") no-repeat scroll left top transparent;
+}
+.icon-m-edit{
+    background: url("https://tkbvn-tokyo.s3.amazonaws.com/images-v2/sprite-control.png") no-repeat scroll left -51px transparent;
+}
+.icon-tk{
+    background: url("https://tkbvn-tokyo.s3.amazonaws.com/images-v2/sprite-control.png") no-repeat scroll left -103px transparent;
+}
+.icon-m-promote{
+    background: url("https://tkbvn-tokyo.s3.amazonaws.com/images-v2/sprite-control.png") no-repeat scroll left -154px transparent;
+}
+.icon-m-x2{
+    background: url("https://tkbvn-tokyo.s3.amazonaws.com/images-v2/sprite-control.png") no-repeat scroll left -205px transparent;
+}
+
+.icon-recycle{
+    background: url("https://tkbvn-tokyo.s3.amazonaws.com/images-v2/icon-recycle.png") no-repeat scroll right 0px transparent;
+    padding:0 7px;
+}
+.icon-code{
+    background: url("https://tkbvn-tokyo.s3.amazonaws.com/images-v2/icon-barcode.png") no-repeat scroll left 0px transparent;
+    display: block;
+    margin:0 auto;
+    width: 34px;
+    height: 25px;
+}
+.checkin{
+    position:absolute;
+    right:0;
+    top:-4px;
+}
+.checkin a {
+    color: #000;
+    background: none repeat scroll 0 0 #dddddd;
+    padding:0.3em 0.25em 0.35em;
+    text-align: center;
+    width: 90px;
+    box-shadow:0 -3px 0 rgba(0, 0, 0, 0.25) inset;
+    float: left;
+    margin-left: 2px;
+}
+
+.checkin .a-mod {
+    width: 38px;
+    text-indent: -5000px;
+    background: url("https://tkbvn-tokyo.s3.amazonaws.com/images-v2/icon/sprite-icon.png") no-repeat scroll -183px -250px #DDDDDD;
+}
+.manage-event{
+    margin-top: 30px;
+    background:#77c47f;
+    padding:0px 0px;
+    border-bottom:3px solid #538959
+}
+.aday ul li{
+    border-bottom: 1px solid #DCDCDC;
+    padding-bottom: 5%;
+    margin-bottom: 5%;
+    position:relative
+}
+.aday ul li:last-child{
+    border: none;
+    padding: 0;
+    margin: 0;
+}
+.add-e-p{
+    margin-top: 1.5em;
+    text-align: center;
+}
+.u-percent{
+    margin-top: 1.4em;
+}
+.bg-cont{
+    background: #65d0f2;
+    padding: .5em 3em;
+    color: #fff;
+}
+.bg-cont:hover {
+    color: #fff;
+}
+.bg-delete{
+    background: #d8d8d8;
+    padding: .5em 1em;
+    margin-left: .5em;
+}
+.no-event {
+    border: 1px solid #dadada;
+    padding: 2em;
+    border-radius: 3px;
+    font-family: "Roboto Slab",Arial,Serif;
+}
+.no-event-text{
+    margin-top: 1.5em;
+    line-height: 160%;
+}
+.lk-more{
+    color: #999;
+    font-size: .9em;
+}
+
+.bootstrap-select.btn-group .btn .filter-option {
+    text-align: center;
+}
+.bootstrap-select > .btn {
+    background: none repeat scroll 0 0 #a1c884;
+    width: 100%;
+    border-radius: 0;
+    color: #fff;
+    font-family: "Roboto Slab",Arial,Serif;
+}
+.my-events .bootstrap-select > .btn{
+    background: none repeat scroll 0 0 #E7E7E7;
+    width: 100%;
+    border-radius: 0;
+    color: #555;
+    font-family: "Roboto Slab",Arial,Serif;
+}
+.caret{
+    border-top:4px solid #fff ;
+}
+.my-events .caret{
+    border-top:4px solid #4E4E4E ;
+}
+.my-events .bootstrap-select.btn-group, .bootstrap-select.btn-group[class*="span"]{
+    margin-bottom: 0px;
+}
+.my-events .bootstrap-select.btn-group .btn .filter-option{
+    top:8px;
+}
+.e-status{font-family: "Roboto Slab",Arial,Serif;}
+.dropdown-menu{
+    background: #f6f6f6;
+    border-radius: 0;
+    margin-top: 0;
+}
+.dropdown-menu li:hover{
+    background: #e7e7e7;
+}
+.face-sad {
+    background: url("https://tkbvn-tokyo.s3.amazonaws.com/images-v2/sad-face.png") no-repeat scroll center center transparent;
+    display: block;
+    height: 55px;
+    margin-right: 3em;
+    width: 55px;
+}
+.e-feartured{
+    background-image:url('https://tkbvn-tokyo.s3.amazonaws.com/images-v2/event-list/e-featured.png');
+    background-repeat:no-repeat;
+    background-position:0 0;
+    display:inline-block;
+    width:70px;
+    height:70px;
+    position:absolute;
+    left:0px;
+    top:0px;
+}
+.no-event-upcoming{
+    border: 1px solid #ccc;
+    padding: 2em 0 2em 4em;
+    border-radius: 5px;
+}
+.w-21{width: 21%;}
+.w-79{width: 79%;}
+a.btn-manage:hover {
+    color:#fff;
+    background:#5f946b;
+    transition: background 0.2s ease-in-out 0s;
+    border-radius:0;
+}
+.btn-manage {
+    font-size: .8em;
+    text-align: center;
+    padding:10px 0px;
+    display:block;
+    width:100%;
+    height:100%;
+    color:#fff
+}
+.i-group{
+    background: url("https://tkbvn-tokyo.s3.amazonaws.com/images-v2/i-manage-event.png") no-repeat scroll left 1px transparent;
+    display:inline-block;
+    width:17px;
+    height:17px;
+    margin-bottom:5px;
+}
+.i-discount-code{
+    background: url("https://tkbvn-tokyo.s3.amazonaws.com/images-v2/icon-discountcode.png") no-repeat scroll left 1px transparent;
+    display:inline-block;
+    width:27px;
+    height:17px;
+    margin-bottom:5px;
+}
+.i-edit{
+    background: url("https://tkbvn-tokyo.s3.amazonaws.com/images-v2/i-manage-event.png") no-repeat scroll left -49px transparent;
+    display:inline-block;
+    width:16px;
+    height:17px;
+    margin-bottom:5px;
+}
+.i-promote{
+    background: url("https://tkbvn-tokyo.s3.amazonaws.com/images-v2/i-manage-event.png") no-repeat scroll left -74px transparent;
+    display:inline-block;
+    width:17px;
+    height:17px;
+    margin-bottom:5px;
+}
+.i-statistic {
+    background: url("https://tkbvn-tokyo.s3.amazonaws.com/images-v2/i-manage-event.png") no-repeat scroll left -23px transparent;
+    display:inline-block;
+    width:17px;
+    height:17px;
+    margin-bottom:5px;
+}
+.i-copy {
+    background: url("https://tkbvn-tokyo.s3.amazonaws.com/images-v2/i-manage-event.png") no-repeat scroll left -101px transparent;
+    display:inline-block;
+    width:17px;
+    height:17px;
+    margin-bottom:5px;
+}
+.load-partial {
+    padding:40% 0;
+    text-align:center
+}
+.tix-summary ul li,.tix-summary ul li:last-child {
+    padding:.7em;
+    margin:0
+}
+.icon-info {
+    background: url("https://tkbvn-tokyo.s3.amazonaws.com/images-v2/icon-info3.png")no-repeat left 0px;
+    display:inline-block;
+    width:16px;
+    height:16px;
+    position:absolute;
+    right:0.7em;
+    top:15px;
+}
+.my-income .tooltip-inner{
+    width: 280px;
+    max-width:280px;
+    text-align: left;
+    font-size: 11px;
+    padding: .6em 1.5em;
+    background:#dcdcdc;
+    font-size:11px;
+}
+
+.my-income .tooltip-arrow, .sold-ticket .tooltip-arrow{
+    border-bottom-color:#dcdcdc!important
+}
+.sold-ticket .tooltip-inner{
+    text-align: left;
+    font-size: 11px;
+    padding: .6em 1.5em;
+    background:#dcdcdc;
+    font-size:11px;
+    width:280px;
+}
+.ex-4-mobi {
+    background:#fff;
+    padding:.7em;
+    margin-top:10px;
+}
+.icon-recycle-big {
+    background: url("https://tkbvn-tokyo.s3.amazonaws.com/images-v2/keewi-form/sprite-create-form.png") no-repeat scroll left -80px rgba(0, 0, 0, 0);
+    height: 26px;
+    display: block;
+    width: 20px;
+}
+.brow-green
+{
+    background-color: #f6f6f6;
+    padding: 3em 1em;
+    color: #7dc242;
+}
+.lk-paging {
+    background:#e7e7e7;
+    padding:9px 15px;
+    color:#666;
+    display:inline-block;
+    border-radius:2px
+}
+.current-page {
+    margin:0px 10px;
+    font-size: 0.8em;
+}
+div.first-element{
+    margin-top: 1em;
+}
+.display-per-item{
+    font-size: 0.8em;
+}
+.paging-bottom{
+    margin-bottom:1em;
+    margin-top:1em;
+}
+@media (max-width: 768px) {
+    .icon-info {
+        background: url("https://tkbvn-tokyo.s3.amazonaws.com/images-v2/sprites-up-down.png")no-repeat left 0px;
+    }
+    .icon-info.active {
+        background: url("https://tkbvn-tokyo.s3.amazonaws.com/images-v2/sprites-up-down.png")no-repeat -32px 0px;
+    }
+    .ex-4-mobi {
+        font-size:.85em
+    }
+    .lk-e {
+        width:100%;
+        margin-bottom:15px
+    }
+    .w-21 {
+        display:none
+    }
+    .w-79 {
+        width:100%
+    }
+    .btn-manage {
+        display:block
+    }
+    .bg-cont {
+        padding:0.5em 1.3em
+    }
+    span.num-draft {
+    }
+    .tix-summary .w-30 {
+        width:60%
+    }
+}
+@media (min-width: 768px) {
+    .main-content .e-add-event {
+        padding: 1em 4em;
+        float: right;
+        width: initial;
+        margin: auto;
+    }
+    .event-search{
+        width: 25%;
+        float: left;
+        margin: auto;
+        border-right: 1px solid #ececec;
+    }
+}
+@media (min-width: 992px) {
+    .lk-e {
+        width: 22%
+    }
+    .event-search {
+        width: 34%;
+    }
+    .main-content .e-add-event {
+        width: initial;
+    }
+}

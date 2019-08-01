@@ -1,0 +1,245 @@
+div.logo img {
+    vertical-align: 1px;
+}
+.sidebar {
+    float: left;
+    width: 30%;
+    position: fixed;
+    height: 100%;
+    background: #303b46;
+    color: #e9edf0;
+    font-family: "Roboto Slab", Serif, Arial;
+    background-size: cover;
+}
+.sidebar a {
+    color: #e9edf0;
+}
+.side-top {
+    padding: 0 2em;
+    position: relative;
+}
+.profile.dropdown {
+    min-width: 152px;
+}
+.side-bottom {
+    background: #4d5763;
+    padding: 1em 2em;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+.profile-name {
+    margin-left: .5em;
+    margin-top: -2px
+}
+.nav-bar {
+    position: relative;
+    padding: 0 0 2em 0;
+}
+ul.list-ctrl li {
+    margin-bottom: 1px;
+    position: relative;
+}
+ul.list-ctrl li a {
+    display: block;
+    padding: 1.5em 0 1.5em 2em;
+}
+#ticket-questions {
+    bottom: 2em;
+    margin: 5em 0 0;
+    position: fixed;
+    width: 30%;
+}
+#ticket-questions a:hover {
+    color: #CCCCCC;
+}
+a.ticket-question {
+    color: #CCCCCC;
+    display: block;
+    text-align: center;
+}
+.bg-opacity-black {
+    background: none repeat scroll 0 0 rgba(255, 255, 255, 0.1);
+    border-radius: 5px 5px 5px 5px;
+    margin: 0 auto;
+    padding: 3%;
+    text-align: left;
+    text-transform: none;
+    width: 82%;
+}
+.ico-question {
+    background-image: url("/images-v2/icon/sprite-icon.png");
+    background-repeat: no-repeat;
+    background-position: -299px -94px;
+    display: inline-block;
+    width: 23px;
+    height: 23px;
+    vertical-align: -3px;
+    margin-right: 10px;
+}
+ul.list-ctrl li.active, ul.list-ctrl li:hover {
+    background: #dadada;
+    transition: all 0.2s ease-in-out 0s
+}
+ul.list-ctrl li.active .i-status {
+    background: url("/images-v2/submit-event/sprite-create-event.png") no-repeat left 1px;
+    height: 15px;
+    position: absolute;
+    right: 2.45em;
+    width: 26px;
+    margin-top: 9px;
+    z-index: 100;
+}
+#panel-add-info span.icon-uniF47C {
+    color: #ccc;
+    z-index: 2;
+}
+ul.list-ctrl li:hover a, ul.list-ctrl li:hover a:hover {
+    color: #27313d;
+}
+ul.list-ctrl li.active a, ul.list-ctrl li.active a:hover {
+    color: #27313d;
+}
+.i-calendar {
+    background: url("/images-v2/sprite-left-bar.png") no-repeat scroll left -307px transparent;
+    padding: 0px 13px;
+}
+li.active .i-calendar, li:hover .i-calendar {
+    background-position: left 0px;
+}
+.i-dolar {
+    background: url("/images-v2/sprite-left-bar.png") no-repeat scroll left -26px transparent;
+    padding: 0px 13px;
+}
+li.active .i-dolar, li:hover .i-dolar {
+    background-position: left -333px;
+}
+.i-tix {
+    background: url("/images-v2/sprite-left-bar.png") no-repeat scroll left -53px transparent;
+    padding: 0px 13px;
+}
+li.active .i-tix, li:hover .i-tix {
+    background-position: left -356px;
+}
+.i-human {
+    background: url("/images-v2/sprite-left-bar.png") no-repeat scroll left -82px transparent;
+    padding: 0px 13px;
+}
+li.active .i-human, li:hover .i-human {
+    background-position: left -383px;
+}
+.i-gear {
+    background: url("/images-v2/sprite-left-bar.png") no-repeat scroll left -109px transparent;
+    padding: 0px 13px;
+}
+li.active .i-gear, li:hover .i-gear {
+    background-position: left -370px;
+}
+.i-pig {
+    background: url("/images-v2/sprite-left-bar.png") no-repeat scroll left -587px transparent;
+    padding: 0px 13px;
+}
+li.active .i-pig, li:hover .i-pig {
+    background-position: left -408px;
+}
+.i-back {
+    background: url("/images-v2/sprite-left-bar.png") no-repeat scroll left -136px transparent;
+    padding: 0px 13px;
+}
+li.active .i-back, li:hover .i-back {
+    background-position: left -489px;
+}
+.i-group-mod {
+    background: url("/images-v2/sprite-left-bar.png") no-repeat scroll left -163px transparent;
+    padding: 0px 13px;
+}
+li.active .i-group-mod, li:hover .i-group-mod {
+    background-position: left -436px;
+}
+.i-group-person {
+    background: url("https://tkbvn-tokyo.s3.amazonaws.com/images-v2/sprite-left-bar.png") no-repeat scroll left -614px transparent;
+    padding: 0px 13px;
+}
+li.active .i-group-person, li:hover .i-group-person {
+    background-position: left -643px;
+}
+.i-statistic {
+    background: url("https://tkbvn-tokyo.s3.amazonaws.com/images-v2/sprite-left-bar.png") no-repeat scroll left -198px transparent;
+    padding: 0px 13px;
+}
+li.active .i-statistic, li:hover .i-statistic {
+    background-position: left -466px;
+    background-image: url("https://tkbvn-tokyo.s3.amazonaws.com/images-v2/sprite-left-bar.png");
+    margin-bottom: 0;
+}
+.i-promote {
+    background: url("https://tkbvn-tokyo.s3.amazonaws.com/images-v2/sprite-left-bar.png") no-repeat scroll left -561px transparent;
+    padding: 0px 13px;
+    margin-bottom: 0 !important;
+}
+li.active .i-promote, li:hover .i-promote {
+    background-position: left -279px;
+    background-image: url("https://tkbvn-tokyo.s3.amazonaws.com/images-v2/sprite-left-bar.png");
+}
+.icon-edit {
+    background: url("https://tkbvn-tokyo.s3.amazonaws.com/images-v2/sprite-left-bar.png") no-repeat scroll left -227px transparent;
+    padding: 2px 13px;
+}
+li.active .icon-edit, li:hover .icon-edit {
+    background-position: left -513px;
+}
+.icon-x2 {
+    background: url("https://tkbvn-tokyo.s3.amazonaws.com/images-v2/sprite-left-bar.png") no-repeat scroll left -257px transparent;
+    padding: 0px 13px;
+}
+li.active .icon-x2, li:hover .icon-x2 {
+    background-position: 5px -540px;
+}
+.list-ctrl li a span {
+    margin-right: 10px;
+}
+.i-face {
+    background: url("https://tkbvn-tokyo.s3.amazonaws.com/images-v2/sprite-discovery.png") no-repeat scroll left 0px transparent;
+    padding: 0px 13px;
+}
+li.active .i-face, li:hover .i-face {
+    background-position: left -140px;
+}
+.i-help-d {
+    background: url("https://tkbvn-tokyo.s3.amazonaws.com/images-v2/sprite-discovery.png") no-repeat scroll left -26px transparent;
+    padding: 2px 13px;
+}
+li.active .i-help-d, li:hover .i-help-d {
+    background-position: left -166px;
+}
+.i-term {
+    background: url("https://tkbvn-tokyo.s3.amazonaws.com/images-v2/sprite-discovery.png") no-repeat scroll left -53px transparent;
+    padding: 2px 13px;
+}
+li.active .i-term, li:hover .i-term {
+    background-position: left -193px;
+}
+.i-work {
+    background: url("https://tkbvn-tokyo.s3.amazonaws.com/images-v2/sprite-discovery.png") no-repeat scroll left -81px transparent;
+    padding: 2px 13px;
+}
+li.active .i-work, li:hover .i-work {
+    background-position: left -220px;
+}
+.i-graphic {
+    background: url("https://tkbvn-tokyo.s3.amazonaws.com/images-v2/sprite-discovery.png") no-repeat scroll left -106px transparent;
+    padding: 4px 13px;
+}
+li.active .i-graphic, li:hover .i-graphic {
+    background-position: left -245px;
+}
+.i-discountcode {
+    background: url("https://tkbvn-tokyo.s3.amazonaws.com/images-v2/icon-discountcode.png") no-repeat scroll left top transparent;
+    display: inline-block;
+    width: 28px;
+    margin-left: -2px;
+    height: 15px;
+}
+li.active .i-discountcode, li:hover .i-discountcode {
+    background-position: -35px top;
+}
